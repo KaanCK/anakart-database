@@ -115,3 +115,60 @@ C:\C#\Anakart Database\Anakart Database\bin\Debug\System.ServiceModel.NetTcp.pdb
 C:\C#\Anakart Database\Anakart Database\bin\Debug\System.ServiceModel.Primitives.pdb
 C:\C#\Anakart Database\Anakart Database\bin\Debug\System.ServiceModel.Security.pdb
 C:\C#\Anakart Database\Anakart Database\bin\Debug\System.Web.Services.Description.pdb
+C:\C#\anakart-database\Anakart Database\bin\Debug\Anakart Database.exe.config
+C:\C#\anakart-database\Anakart Database\bin\Debug\Anakart Database.exe
+C:\C#\anakart-database\Anakart Database\bin\Debug\Anakart Database.pdb
+C:\C#\anakart-database\Anakart Database\bin\Debug\BouncyCastle.Crypto.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\Bunifu.UI.WinForms.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\Google.Protobuf.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\K4os.Compression.LZ4.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\K4os.Hash.xxHash.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\Microsoft.Win32.Registry.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\Microsoft.Win32.Registry.AccessControl.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\Microsoft.Win32.SystemEvents.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\MySql.Data.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\Newtonsoft.Json.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\RestSharp.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Buffers.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.CodeDom.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Data.Odbc.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Data.OleDb.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Data.SqlClient.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Diagnostics.EventLog.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Drawing.Common.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.IO.FileSystem.AccessControl.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.IO.Packaging.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.IO.Pipelines.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.IO.Ports.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Memory.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Numerics.Vectors.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Security.AccessControl.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Security.Cryptography.Cng.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Security.Cryptography.Pkcs.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Security.Permissions.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Security.Principal.Windows.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.ServiceModel.Syndication.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.ServiceProcess.ServiceController.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Threading.AccessControl.xml
+C:\C#\anakart-database\Anakart Database\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.AssemblyReference.cache
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.SuggestedBindingRedirects.cache
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart_Database.mainForm.resources
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart_Database.Properties.Resources.resources
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.GenerateResource.cache
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.exe.licenses
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.CoreCompileInputs.cache
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.Fody.CopyLocal.cache
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.Fody.RuntimeCopyLocal.cache
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.CopyComplete
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.exe
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.pdb
