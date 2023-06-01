@@ -167,8 +167,8 @@ C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart_Database.Properties.Re
 C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.GenerateResource.cache
 C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.exe.licenses
 C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.CoreCompileInputs.cache
-C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.Fody.CopyLocal.cache
-C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.Fody.RuntimeCopyLocal.cache
 C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.CopyComplete
 C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.exe
 C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.pdb
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.Fody.CopyLocal.cache
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.Fody.RuntimeCopyLocal.cache

@@ -102,6 +102,9 @@
             this.dataGridView.AllowUserToOrderColumns = true;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.dataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.Silver;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -152,6 +155,7 @@
             // 
             // tierlistComboBox
             // 
+            this.tierlistComboBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.tierlistComboBox.BackColor = System.Drawing.Color.Transparent;
             this.tierlistComboBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.tierlistComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -163,7 +167,11 @@
             this.tierlistComboBox.Items.AddRange(new object[] {
             "AM4 Tierlist",
             "sTRX4 Tierlist",
-            "Intel Core Serisi İşlemciler"});
+            "Intel Core Serisi İşlemciler",
+            "Intel Xeon Serisi İşlemciler",
+            "Intel Pentium Serisi İşlemciler",
+            "Intel Celeron Serisi İşlemciler",
+            "Intel Atom Serisi İşlemciler"});
             this.tierlistComboBox.Location = new System.Drawing.Point(794, 73);
             this.tierlistComboBox.Name = "tierlistComboBox";
             this.tierlistComboBox.Size = new System.Drawing.Size(408, 36);
@@ -184,6 +192,7 @@
             this.Controls.Add(this.guna2ControlBox1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "mainForm";
             this.Text = "Anakart Database (Rᴇᴠᴇɴɢᴇ)";
             this.Load += new System.EventHandler(this.mainForm_Load);

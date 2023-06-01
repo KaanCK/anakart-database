@@ -32,6 +32,7 @@ namespace Anakart_Database
 
         private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            GC.Collect();
             if(tierlistComboBox.Text == "AM4 Tierlist")
             {
                 string sqlsorgusu = "Select * from am4_tierlist";
@@ -77,6 +78,66 @@ namespace Anakart_Database
                 dataGridView.DataSource = tablo;
             }
 
+            if (tierlistComboBox.Text == "Intel Xeon Serisi İşlemciler")
+            {
+                string sqlsorgusu = "Select * from intel_xeon_processors";
+                DataTable tablo = new DataTable();
+
+                komut.CommandText = sqlsorgusu;
+                komut.Connection = baglan;
+
+                baglayici.SelectCommand = komut;
+                baglan.Open();
+                baglayici.Fill(tablo);
+                baglan.Close();
+                dataGridView.DataSource = tablo;
+            }
+
+            if (tierlistComboBox.Text == "Intel Pentium Serisi İşlemciler")
+            {
+                string sqlsorgusu = "Select * from intel_pentium_processors";
+                DataTable tablo = new DataTable();
+
+                komut.CommandText = sqlsorgusu;
+                komut.Connection = baglan;
+
+                baglayici.SelectCommand = komut;
+                baglan.Open();
+                baglayici.Fill(tablo);
+                baglan.Close();
+                dataGridView.DataSource = tablo;
+            }
+
+            if (tierlistComboBox.Text == "Intel Celeron Serisi İşlemciler")
+            {
+                string sqlsorgusu = "Select * from intel_celeron_processors";
+                DataTable tablo = new DataTable();
+
+                komut.CommandText = sqlsorgusu;
+                komut.Connection = baglan;
+
+                baglayici.SelectCommand = komut;
+                baglan.Open();
+                baglayici.Fill(tablo);
+                baglan.Close();
+                dataGridView.DataSource = tablo;
+            }
+
+            if (tierlistComboBox.Text == "Intel Atom Serisi İşlemciler")
+            {
+                string sqlsorgusu = "Select * from intel_atom_processors";
+                DataTable tablo = new DataTable();
+
+                komut.CommandText = sqlsorgusu;
+                komut.Connection = baglan;
+
+                baglayici.SelectCommand = komut;
+                baglan.Open();
+                baglayici.Fill(tablo);
+                baglan.Close();
+                dataGridView.DataSource = tablo;
+            }
+            GC.Collect();
         }
     }
 }
