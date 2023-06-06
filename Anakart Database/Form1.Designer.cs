@@ -168,15 +168,16 @@
             this.tierlistComboBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.tierlistComboBox.ItemHeight = 30;
             this.tierlistComboBox.Items.AddRange(new object[] {
-            "AM4 Tierlist",
-            "sTRX4 Tierlist",
+            "AM4 Anakart Tierlist",
+            "sTRX4 Anakart Tierlist",
             "Intel Core Serisi İşlemciler",
             "Intel Xeon Serisi İşlemciler",
             "Intel Pentium Serisi İşlemciler",
             "Intel Celeron Serisi İşlemciler",
             "Intel Atom Serisi İşlemciler",
             "DDR4 Ram Çip Tierlist",
-            "SSD Tierlist"});
+            "SSD Tierlist",
+            "Gamepad Tierlist"});
             this.tierlistComboBox.Location = new System.Drawing.Point(794, 73);
             this.tierlistComboBox.Name = "tierlistComboBox";
             this.tierlistComboBox.Size = new System.Drawing.Size(408, 36);

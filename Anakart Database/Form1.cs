@@ -25,7 +25,7 @@ namespace Anakart_Database
         }
         //public MySqlConnection mysqlbaglan = new MySqlConnection("Server=localhost;Database=blog;Uid=root;Pwd='';");
 
-        MySqlConnection baglan = new MySqlConnection("Server=anakartdatabase.cgttpdchgwta.eu-central-1.rds.amazonaws.com;Database=k_datalar;Uid=admin;Pwd='19751975k';AllowUserVariables=True;UseCompression=True");
+        MySqlConnection baglan = new MySqlConnection("Server=db4free.net;Database=k_datalar;Uid=kaancabukvt;Pwd='Kaan@123.*';AllowUserVariables=True;UseCompression=True");
         MySqlDataAdapter baglayici = new MySqlDataAdapter();
         MySqlCommand komut = new MySqlCommand();
         private void mainForm_Load(object sender, EventArgs e)
@@ -36,7 +36,7 @@ namespace Anakart_Database
         private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             GC.Collect();
-            if(tierlistComboBox.Text == "AM4 Tierlist")
+            if(tierlistComboBox.Text == "AM4 Anakart Tierlist")
             {
                 string sqlsorgusu = "Select * from am4_tierlist";
                 DataTable tablo = new DataTable();
@@ -51,7 +51,7 @@ namespace Anakart_Database
                 dataGridView.DataSource = tablo;
             }
 
-            if (tierlistComboBox.Text == "sTRX4 Tierlist")
+            if (tierlistComboBox.Text == "sTRX4 Anakart Tierlist")
             {
                 string sqlsorgusu = "Select * from strx4_tierlist";
                 DataTable tablo = new DataTable();
@@ -159,6 +159,21 @@ namespace Anakart_Database
             if (tierlistComboBox.Text == "SSD Tierlist")
             {
                 string sqlsorgusu = "Select * from ssd_tierlist";
+                DataTable tablo = new DataTable();
+
+                komut.CommandText = sqlsorgusu;
+                komut.Connection = baglan;
+
+                baglayici.SelectCommand = komut;
+                baglan.Open();
+                baglayici.Fill(tablo);
+                baglan.Close();
+                dataGridView.DataSource = tablo;
+            }
+
+            if (tierlistComboBox.Text == "Gamepad Tierlist")
+            {
+                string sqlsorgusu = "Select * from gamepad_tierlist";
                 DataTable tablo = new DataTable();
 
                 komut.CommandText = sqlsorgusu;
