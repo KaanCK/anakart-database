@@ -24,7 +24,7 @@ namespace Anakart_Database
             InitializeComponent();
         }
 
-        readonly MySqlConnection baglan = new MySqlConnection("Server=db4free.net;Database=k_datalar;Uid=kaancabukvt;Pwd='Kaan@123.*';AllowUserVariables=True;UseCompression=True");
+        readonly MySqlConnection baglan = new MySqlConnection("Server=db4free.net;Database=k_datalar;Uid=x;Pwd='x';AllowUserVariables=True;UseCompression=True");
         readonly MySqlDataAdapter baglayici = new MySqlDataAdapter();
         readonly MySqlCommand komut = new MySqlCommand();
         private void mainForm_Load(object sender, EventArgs e)
