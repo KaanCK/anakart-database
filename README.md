@@ -1,3 +1,4 @@
+
 <div align="center">
 <a><img src="https://i.hizliresim.com/nksvdua.png" alt="Anakart Database"></a>
 
@@ -36,3 +37,20 @@ Open the project in any C# IDE like Visual Studio. Project is based on .NET 4.7.
 
 ### Compiling
 Open `Anakart Database.sln` file with any C# IDE and simply, click to `Build -> Build Solution` above of the page. Output will save to `./Debug/` folder.
+
+### Resources
+
+Resources:
+
+https://linustechtips.com/topic/1137619-motherboard-vrm-tier-list-v2-currently-amd-only/ (AM4 ve sTRX4 Anakart Tierlist)
+
+https://github.com/toUpperCase78/intel-processors/tree/master (İntel Core, Xeon, Pentium, Celeron Atom serisi işlemcilerin listeleri)
+
+https://www.technopat.net/sosyal/konu/ddr4-ram-cipleri-tier-list.1384330/ (DDR4 Ram Çip Tierlist)
+
+https://www.technopat.net/sosyal/konu/genis-ssd-seviye-listesi-v3-final.1385748/ (SSD Tierlist)
+
+https://www.technopat.net/sosyal/konu/gamepad-tier-list.2580138/ (Gamepad Tierlist)
+
+Permission was obtained from the owners of the resources.
+
