@@ -23,11 +23,10 @@ namespace Anakart_Database
         {
             InitializeComponent();
         }
-        //public MySqlConnection mysqlbaglan = new MySqlConnection("Server=localhost;Database=blog;Uid=root;Pwd='';");
 
-        MySqlConnection baglan = new MySqlConnection("Server=db4free.net;Database=k_datalar;Uid=kaancabukvt;Pwd='Kaan@123.*';AllowUserVariables=True;UseCompression=True");
-        MySqlDataAdapter baglayici = new MySqlDataAdapter();
-        MySqlCommand komut = new MySqlCommand();
+        readonly MySqlConnection baglan = new MySqlConnection("Server=db4free.net;Database=k_datalar;Uid=kaancabukvt;Pwd='Kaan@123.*';AllowUserVariables=True;UseCompression=True");
+        readonly MySqlDataAdapter baglayici = new MySqlDataAdapter();
+        readonly MySqlCommand komut = new MySqlCommand();
         private void mainForm_Load(object sender, EventArgs e)
         {
             tierlistComboBox.Text = "Lütfen metin seçiniz";
@@ -257,9 +256,8 @@ namespace Anakart_Database
                             }
                         }
                     }
-                    catch (NullReferenceException)
-                    {
-                    }
+                    catch (NullReferenceException){}
+
                     using (FileStream stream = new FileStream(save.FileName + ".pdf", FileMode.Create))
                     {
                         Document pdfDoc = new Document(PageSize.A2, 10f, 10f, 10f, 0f);// sayfa boyutu.
@@ -299,6 +297,11 @@ namespace Anakart_Database
             }
 
             GC.Collect();
+        }
+
+        private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

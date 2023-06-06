@@ -173,7 +173,7 @@ C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.Resolv
 C:\C#\anakart-database\Anakart Database\bin\Debug\itextsharp.xml
 C:\C#\anakart-database\Anakart Database\bin\Debug\Anakart Database.exe.manifest
 C:\C#\anakart-database\Anakart Database\bin\Debug\Anakart Database.application
-C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.Fody.CopyLocal.cache
-C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.Fody.RuntimeCopyLocal.cache
 C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.exe.manifest
 C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.application
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.Fody.CopyLocal.cache
+C:\C#\anakart-database\Anakart Database\obj\Debug\Anakart Database.csproj.Fody.RuntimeCopyLocal.cache

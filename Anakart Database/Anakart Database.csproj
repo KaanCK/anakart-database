@@ -30,7 +30,7 @@
     <ProductName>Anakart Database</ProductName>
     <PublisherName>Revenge - Kaan CK</PublisherName>
     <SuiteName>Anakart Database</SuiteName>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
