@@ -2,7 +2,7 @@
 <div align="center">
 <a><img src="https://i.hizliresim.com/nksvdua.png" alt="Anakart Database"></a>
 
-## Projects Launcher
+## Anakart Database
 
 <a href="https://app.codacy.com/gh/KaanCK/anakart-database/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://app.codacy.com/project/badge/Grade/a853ca9c927a40ada6f1d781a875bdd0"/></a>
 
